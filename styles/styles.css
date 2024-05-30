@@ -1,0 +1,141 @@
+/* Selectores */
+
+/* Selectores de etiqueta */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* body {
+  font-family: "Roboto";
+} */
+
+header {
+  /* Justify content acomoda en el eje principal, y align items acomoda en el eje secundario */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0  15px;
+  background-color: rgb(51, 50, 50);
+  /* En sentido de las agujas del reloj, top right bottom left */
+  margin-bottom: 15px;
+  /* padding: 5px; */
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+h1 {
+  /* El primer valor es para los valores verticales (top y bottom), el segundo valor aplica a los laterales (right y left) */
+  margin: 10px 0;
+}
+
+header nav a {
+  color: white;
+}
+
+footer {
+  background-color: red;
+}
+
+/* Selectores de ID */
+
+/* #titulo-principal {
+  background-color: red;
+} */
+
+
+/* Selectores de clases */
+
+/* .ejemplo { */
+  /* Porcentaje % utiliza el 100% de su contenedor */
+  /* Viewport width o viewport height, utiliza el 100% del dispositivo */
+  /* width: 100vw;
+  height: 250px; */
+/* } */
+
+.img-logo {
+  width: 64px;
+  height: 64px;
+}
+
+.titulo-principal {
+  text-align: center;
+}
+
+/* Ejemplo de position sticky y fixed */
+
+
+.card-container {
+  /* Flex trabaja en columnas (y) o en filas (x) */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  height: 275px;
+  border: solid 1px black;
+  margin: 0px 10px;
+}
+
+.img-card {
+  width: 100px;
+  height: 75px;
+}
+
+
+
+.formulario {
+  width: 350px;
+}
+
+.ejemplo-boton {
+  background-color: crimson;
+}
+
+
+.navbar a {
+  color: azure;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pseudoclases */
+
+/* link */
+/* .ejemplo-link:link {
+  background-color: brown;
+} */
+/* hover */
+
+/* .ejemplo-hover:hover {
+  width: 750px;
+  height: 750px;
+} */
